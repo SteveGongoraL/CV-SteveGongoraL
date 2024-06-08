@@ -15,7 +15,7 @@ body {
 */
 header {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     margin: 0 20px 0 20px;
 }
@@ -45,14 +45,19 @@ a:visited {
 /* 
     Imagen del CV
 */
-img {
+.cvImg{
+    width: 47%;
     margin: 20px 20px 0 0;
-    width: 150px;
+}
+.cvImg img {
+    margin-left: auto;
+    display: block;
+    width: 40%;
     height: auto;
     border-radius: 20px;
     transition: transform 0.3s;
 }
-img:hover {
+.cvImg img:hover {
     transform: scale(1.2);
 }
 
@@ -117,6 +122,7 @@ div + p {
 */
 .habilidadesSection {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items:center;
 }
@@ -127,8 +133,8 @@ div + p {
 }
 .habilidadesBlandas {
     display: block;
-    width: 50%;
-    margin-left: 40px;
+    width: 40%;
+    margin-left: 20px;
 }
 .textHabilidades {
     margin-bottom: 0;
@@ -140,6 +146,7 @@ div + p {
 */
 .periodosDeTiempo {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .periodosDeTiempo p{
