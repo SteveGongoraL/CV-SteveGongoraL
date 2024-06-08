@@ -27,7 +27,7 @@ h1 {
 .cvContacto {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 75%;
 }
 a {
     color: #0070c0;
@@ -46,13 +46,13 @@ a:visited {
     Imagen del CV
 */
 .cvImg{
-    width: 47%;
+    width: 20%;
     margin: 20px 20px 0 0;
 }
 .cvImg img {
     margin-left: auto;
     display: block;
-    width: 40%;
+    width: 100%;
     height: auto;
     border-radius: 20px;
     transition: transform 0.3s;
