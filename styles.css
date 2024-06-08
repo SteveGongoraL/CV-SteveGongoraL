@@ -81,7 +81,7 @@ h2 {
     color: #0070c0;
 }
 .textList {
-    font-size: 19px;
+    font-size: 17px;
     color: #0070c0;
 }
 
@@ -106,7 +106,7 @@ ul li::before {
 ul li span {
     color: #000000;
 }
-li + p {
+div + p {
     margin-top: 5px;
     margin-left: 20px;
 }
@@ -134,3 +134,17 @@ li + p {
     margin-bottom: 0;
 }
 
+
+/* 
+    Periodos de tiempo
+*/
+.periodosDeTiempo {
+    display: flex;
+    justify-content: space-between;
+}
+.periodosDeTiempo p{
+    margin: 0;
+}
+.periodosDeTiempo h3{
+    margin: 0;
+}
