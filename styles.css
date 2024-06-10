@@ -107,6 +107,8 @@ ul li::before {
     color: #0070c0;
     position: absolute;
     left: 0;
+    font-size: 12px;
+    line-height: 1;
 }
 ul li span {
     color: #000000;
