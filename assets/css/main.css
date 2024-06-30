@@ -1,3 +1,7 @@
+/* *{
+    outline: 1px solid red;
+} */
+
 body {
     margin: 0;
     background-color: #DFDBE5;
@@ -48,15 +52,14 @@ a:visited {
 */
 .cvImg{
     min-width: 110px;
-    width: 20%;
-    margin: 20px 20px 0 0;
+    width: 25%;
 }
 .cvImg img {
-    margin-left: auto;
     display: block;
-    width: 100%;
+    margin: 20px auto 0 auto;
+    width: clamp(110px, 100%, 180px);
     height: auto;
-    border-radius: 20px;
+    border-radius: 10px;
     transition: transform 0.3s;
 }
 .cvImg img:hover {
@@ -164,12 +167,12 @@ div + p {
 /* 
     Boton de descarga
 */
-.btn-container {
+.btnContainer {
     display: flex;
     justify-content: center;
     margin-top: 20px;
 }
-.btn {
+.btnDescarga {
     display: inline-block;
     padding: 10px 20px;
     font-size: 16px;
@@ -179,7 +182,7 @@ div + p {
     text-decoration: none;
     border-radius: 10px;
 }
-.btn:hover {
+.btnDescarga:hover {
     background-color: #642021;
     text-decoration: none;
 }
